@@ -1,0 +1,25 @@
+# Composer
+/vendor/
+composer.lock
+
+# PHPUnit
+/phpunit.xml
+/build/
+/coverage/
+
+# Logs and temporary files
+*.log
+/tmp/
+
+# Environment files - VERY IMPORTANT
+.env
+.env.local
+.env.*.local
+
+# SQLite Database file
+*.sqlite
+*.sqlite3
+
+# IDE settings
+.idea/
+.vscode/
